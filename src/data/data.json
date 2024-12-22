@@ -1,134 +1,165 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "An Experienced Toronto, OT-Based Locksmith",
+    "paragraph": "commercial and residential locksmith services."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+    "paragraph": "our mission is to provide the highest quality locksmith services to the Keys community. We are committed to delivering exceptional customer service and building long-term relationships with our customers.",
+   "Why": [
+      "Affordable Pricing",
+      "Quick Response",
+      "Comprehensive Services",
+      "Exceptional Customer Service"
     ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+"Why2": [
+      "Expert Technicians",
+      "24/7 Availability",
+      "Community Focused",
+      "Reliable Security Solutions"
     ]
+
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/1.jpg",
+      "smallImage": "img/portfolio/1.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/2.jpeg",
+      "smallImage": "img/portfolio/2.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/3.jpeg",
+      "smallImage": "img/portfolio/3.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/4.jpeg",
+      "smallImage": "img/portfolio/4.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/5.jpeg",
+      "smallImage": "img/portfolio/5.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/6.jpeg",
+      "smallImage": "img/portfolio/6.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/7.jpeg",
+      "smallImage": "img/portfolio/7.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/8.jpeg",
+      "smallImage": "img/portfolio/8.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/9.jpeg",
+      "smallImage": "img/portfolio/9.jpeg"
     }
   ],
   "Services": [
+    
+  
+    
+   
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Residential Locksmith Services",
+      "text": "Comprehensive locksmith solutions for homes, ensuring safety and security for you and your family."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-building",
+      "name": "Commercial Locksmith Services",
+      "text": "Specialized locksmith services for businesses, protecting your assets with advanced locking systems."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-dollar",
+      "name": "Affordable Prices and Quick Response",
+      "text": "We offer competitive and transparent pricing for all our locksmith and repair services."
+    },
+     {
+      "icon": "fa fa-fighter-jet",
+      "name": "Quick 30-Minute Show-Up Time",
+      "text": "Our team ensures rapid response, arriving within 30 minutes to handle your emergency."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-windows",
+      "name": "Storefront Glass Replacement",
+      "text": "Professional glass replacement for storefronts to restore security and visual appeal."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-exclamation-triangle",
+      "name": "Emergency Locksmith Services",
+      "text": "24/7 emergency locksmith services to assist you in urgent situations, anytime, anywhere."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Door Repair and Installation",
+      "text": "Expert door repair and installation services for residential and commercial properties."
+    },
+    {
+      "icon": "fa fa-shield",
+      "name": "Gate Installation",
+      "text": "Reliable gate installation services to enhance the security and aesthetic of your property."
+    },
+    {
+      "icon": "fa fa-bars",
+      "name": "Bars Installation",
+      "text": "Secure bar installation for windows and doors to provide additional protection."
+    },
+    {
+      "icon": "fa fa-key",
+      "name": "Lock Re-key",
+      "text": "Efficient lock re-keying services to improve security without replacing the entire lock."
+    },
+    {
+      "icon": "fa fa-h-square",
+      "name": "Garage Door Lockout, Repair, and Installation",
+      "text": "Comprehensive garage door solutions, including lockout assistance, repairs, and installations."
     }
-  ],
-  "Testimonials": [
+]
+,"Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"The team arrived promptly and fixed my door lock in no time. Exceptional service and very professional!\"",
+      "name": "Emily Carter"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"I was locked out of my house late at night, and they arrived within 20 minutes. Highly recommend their emergency locksmith services!\"",
+      "name": "Michael Thompson"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Their pricing is fair, and the work is top-notch. I had my garage lock replaced, and it’s working perfectly now.\"",
+      "name": "Sophia Lee"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Very professional and courteous staff. They re-keyed all my home locks quickly and efficiently.\"",
+      "name": "Daniel Roberts"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Fantastic service! They replaced my storefront glass after an accident, and it looks as good as new.\"",
+      "name": "Olivia Martinez"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"I’ve used their locksmith services multiple times, and they never disappoint. Always reliable and efficient!\"",
+      "name": "James Walker"
     }
-  ],
+]
+,
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -152,33 +183,34 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "1137 bancroft drive Mississauga  ",
+    "phone": "+16478259664",
+    "email": "niaservicesltd@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-home",
+      "title": "Home Security",
+      "text": "Protect your home with advanced security solutions, including lock re-keying, door repairs, and bar installations."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-building",
+      "title": "Commercial Security",
+      "text": "Secure your business with reliable locksmith services, from storefront glass replacement to gate installations."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-search",
+      "title": "Emergency Assistance",
+      "text": "Get 24/7 emergency locksmith services with a quick 30-minute response time for urgent situations."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-car",
+      "title": "Automotive Solutions",
+      "text": "Comprehensive automotive locksmith services, including garage door lockout assistance and repairs."
     }
-  ]
+]
+
 }

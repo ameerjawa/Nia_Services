@@ -39,7 +39,7 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
+          {/* <div className="col-md-8">
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
@@ -97,7 +97,7 @@ export const Contact = (props) => {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
@@ -153,9 +153,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; 2023 NIA Services. Design by{" "}
+            <a href="https://ajwebcraft.netlify.app/" rel="nofollow">
+              AJWebCraft
             </a>
           </p>
         </div>

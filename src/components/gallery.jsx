@@ -8,8 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Explore our work and see how we’ve helped secure homes, businesses, and vehicles with expert locksmith solutions.
           </p>
         </div>
         <div className="row">
