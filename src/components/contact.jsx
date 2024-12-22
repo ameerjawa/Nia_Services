@@ -1,20 +1,19 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
+// const initialState = {
+//   name: "",
+//   email: "",
+//   message: "",
+// };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  // const [{ name, email, message }, setState] = useState(initialState);
 
   // const handleChange = (e) => {
   //   const { name, value } = e.target;
   //   setState((prevState) => ({ ...prevState, [name]: value }));
   // };
-  const clearState = () => setState({ ...initialState });
+  // const clearState = () => setState({ ...initialState });
   
   
   // const handleSubmit = (e) => {
