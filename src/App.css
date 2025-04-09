@@ -1,18 +1,130 @@
 @media screen and (max-width: 450px) {
   #features {
     padding: 20px;
-    width: 130%;
+    width: 100%;
   } 
   #about,
+  #header
   #services,
   #testimonials,
   #team,
   #contact,
   #footer {
-    width: 130%;
+    width: 100%;
   }
 
   #portfolio {
-    width: 130%;
+    width: 100%;
+    padding: 40px 10px;
+
   }
+  .gallery-grid {
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+  .intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 33px;
+    /* text-transform: uppercase; */
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Prevent horizontal scrolling */
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Make sure all images shrink to fit */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Prevent child elements from expanding parent width */
+* {
+  box-sizing: border-box;
+}
+
+/* Section title centering and spacing */
+.section-title {
+  margin-bottom: 40px;
+}
+
+/* Responsive grid with more space */
+.gallery-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 10px;
+}
+
+/* Image container styling */
+.gallery-item {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+/* Image itself */
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  transition: transform 0.3s ease;
+}
+
+/* Subtle hover effect */
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.lightbox-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: white;
+  border: none;
+  font-size: 28px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 1001;
 }

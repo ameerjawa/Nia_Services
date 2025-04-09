@@ -1,17 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const Image = ({ title, largeImage, smallImage }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="portfolio-item">
-      <div className="hover-bg">
-        {" "}
-        <a href={largeImage} title={title} data-lightbox-gallery="gallery1">
-          <div className="hover-text">
-            <h4>{title}</h4>
+    <>
+      <div className="portfolio-item">
+        <div className="hover-bg">
+          <div onClick={() => setIsOpen(true)} style={{ cursor: "pointer" }}>
+            <div className="hover-text">
+              <h4>{title}</h4>
+            </div>
+            <img src={smallImage} className="img-responsive" alt={title} />
           </div>
-          <img src={smallImage} className="img-responsive" alt={title} />{" "}
-        </a>{" "}
+        </div>
       </div>
-    </div>
+
+      {isOpen && (
+        <div className="lightbox-overlay" onClick={() => setIsOpen(false)}>
+          <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+         
+            <img src={largeImage} alt={title} />
+          </div>
+        </div>
+      )}
+    </>
   );
 };
