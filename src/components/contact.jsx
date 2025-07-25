@@ -1,103 +1,20 @@
-// import { useState } from "react";
 import React from "react";
 
-// const initialState = {
-//   name: "",
-//   email: "",
-//   message: "",
-// };
 export const Contact = (props) => {
-  // const [{ name, email, message }, setState] = useState(initialState);
-
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setState((prevState) => ({ ...prevState, [name]: value }));
-  // };
-  // const clearState = () => setState({ ...initialState });
-  
-  
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log(name, email, message);
-    
-  //   {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-  //   emailjs
-  //     .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         clearState();
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
   return (
     <div>
       <div id="contact">
-        <div className="container">
-          {/* <div className="col-md-8">
-            <div className="row">
-              <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
-              </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Message"
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div> */}
-          <div className="col-md-3 col-md-offset-1 contact-info">
+        <div className="container" style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
+          
+          {/* Contact Info */}
+          <div
+            className="contact-info"
+            style={{
+              flex: "1 1 300px",
+              maxWidth: "400px",
+              minWidth: "280px",
+            }}
+          >
             <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
@@ -113,9 +30,7 @@ export const Contact = (props) => {
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
                 <a className="telephone" href="tel:+16478259664">
-
-                {props.data ? props.data.phone : "loading"}
-
+                  {props.data ? props.data.phone : "loading"}
                 </a>
               </p>
             </div>
@@ -127,32 +42,51 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : "loading"}
               </p>
             </div>
-          </div>
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+
+            <div className="social" style={{ marginTop: "20px" }}>
+              <ul style={{ display: "flex", gap: "15px", padding: 0, listStyle: "none" }}>
+                <li>
+                  <a href={props.data ? props.data.facebook : "/"}>
+                    <i className="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href={props.data ? props.data.twitter : "/"}>
+                    <i className="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href={props.data ? props.data.youtube : "/"}>
+                    <i className="fa fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
+
+          {/* Map */}
+          <div
+            className="map-container"
+            style={{
+              flex: "2 1 500px",
+              minWidth: "280px",
+              height: "250px",
+            }}
+          >
+            <iframe
+              title="NIA Services Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.9038807652937!2d-79.7100032!3d43.608542899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b41e9fcecfb17%3A0xcde247c24926a4fc!2sNIA%20Services%20Mississauga!5e0!3m2!1sar!2sca!4v1753401289275!5m2!1sar!2sca"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
+
       <div id="footer">
         <div className="container text-center">
           <p>

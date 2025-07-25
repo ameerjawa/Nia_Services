@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "An Experienced GTA Based Locksmith",
-    "paragraph": "commercial and residential locksmith services."
+    "title": "Professional Locksmith Solutions in the GTA",
+    "paragraph": "Providing fast, secure, and affordable locksmith services for both commercial and residential clients throughout the GTA."
   },
   "About": {
     "paragraph": "our mission is to provide the highest quality locksmith services to the Keys community. We are committed to delivering exceptional customer service and building long-term relationships with our customers.",
@@ -30,11 +30,7 @@
       "largeImage": "img/portfolio/2.jpeg",
       "smallImage": "img/portfolio/2.jpeg"
     },
-    {
-      "title": "ZOOM",
-      "largeImage": "img/portfolio/3.jpeg",
-      "smallImage": "img/portfolio/3.jpeg"
-    },
+
     {
       "title": "ZOOM",
       "largeImage": "img/portfolio/4.jpeg",
@@ -64,6 +60,31 @@
       "title": "ZOOM",
       "largeImage": "img/portfolio/9.jpeg",
       "smallImage": "img/portfolio/9.jpeg"
+    },
+    {
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/10.jpg",
+      "smallImage": "img/portfolio/10.jpg"
+    },
+    {
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/11.jpg",
+      "smallImage": "img/portfolio/11.jpg"
+    },
+    {
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/12.jpg",
+      "smallImage": "img/portfolio/12.jpg"
+    },
+    {
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/13.jpg",
+      "smallImage": "img/portfolio/13.jpg"
+    },
+    {
+      "title": "ZOOM",
+      "largeImage": "img/portfolio/14.jpg",
+      "smallImage": "img/portfolio/14.jpg"
     }
   ],
   "Services": [

@@ -1,64 +1,51 @@
-@media screen and (max-width: 450px) {
-  #features {
-    padding: 20px;
-    width: 100%;
-  } 
-  #about,
-  #header
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #footer {
-    width: 100%;
-  }
+/* Slick Carousel core styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
-  #portfolio {
-    width: 100%;
-    padding: 40px 10px;
 
-  }
-  .gallery-grid {
-    gap: 16px;
-    grid-template-columns: 1fr;
-  }
-  .intro h1 {
-    font-family: "Raleway", sans-serif;
-    color: #fff;
-    font-weight: 700;
-    font-size: 33px;
-    /* text-transform: uppercase; */
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-}
 
-/* Prevent horizontal scrolling */
-body, html {
+/* Gold Gradient and General Styling */
+body,
+html {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-/* Make sure all images shrink to fit */
+* {
+  box-sizing: border-box;
+}
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Prevent child elements from expanding parent width */
-* {
-  box-sizing: border-box;
-}
-
-/* Section title centering and spacing */
 .section-title {
   margin-bottom: 40px;
 }
+.image-wrapper {
+  cursor: pointer;
+  margin: 0 8px;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 200px;
+}
 
-/* Responsive grid with more space */
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: gold;
+  font-size: 24px;
+}
+/* Responsive grid for gallery */
 .gallery-grid {
   display: grid;
   gap: 24px;
@@ -66,7 +53,6 @@ img {
   padding: 10px;
 }
 
-/* Image container styling */
 .gallery-item {
   border-radius: 16px;
   overflow: hidden;
@@ -75,7 +61,6 @@ img {
   background-color: #fff;
 }
 
-/* Image itself */
 .gallery-item img {
   width: 100%;
   height: auto;
@@ -85,7 +70,6 @@ img {
   transition: transform 0.3s ease;
 }
 
-/* Subtle hover effect */
 .gallery-item:hover img {
   transform: scale(1.05);
 }
@@ -127,4 +111,70 @@ img {
   height: 36px;
   cursor: pointer;
   z-index: 1001;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 450px) {
+  #features {
+    padding: 20px;
+    width: 100%;
+  }
+
+  #about,
+  #header,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 100%;
+  }
+
+  #portfolio {
+    width: 100%;
+    padding: 40px 10px;
+  }
+
+  .gallery-grid {
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+
+  .intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 33px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Custom Buttons */
+.btn-custom {
+  color: #fff;
+  background-image: linear-gradient(to right, #FFD700 0%, #FFA500 100%);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+  color: #fff;
+  background-image: none;
+  background-color: #DAA520; /* goldenrod */
+}
+
+/* Navbar Toggle for Mobile */
+.navbar-default .navbar-toggle {
+  border-color: #DAA520;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+  border-color: #DAA520;
 }

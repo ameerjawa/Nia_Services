@@ -5,22 +5,40 @@ export const Image = ({ title, largeImage, smallImage }) => {
 
   return (
     <>
-      <div className="portfolio-item">
-        <div className="hover-bg">
-          <div onClick={() => setIsOpen(true)} style={{ cursor: "pointer" }}>
-            <div className="hover-text">
-              <h4>{title}</h4>
-            </div>
-            <img src={smallImage} className="img-responsive" alt={title} />
-          </div>
-        </div>
+      <div
+       
+        style={{
+          cursor: "pointer",
+          margin: "0 8px",           // horizontal margin between items
+          borderRadius: "12px",
+          overflow: "hidden",        // keeps borderRadius working on image
+          height: "200px",           // fixed height
+        }}
+      >
+        <img
+          src={smallImage}
+          alt={title}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",     // ensures it fills the box and crops if needed
+            display: "block"
+          }}
+        />
       </div>
 
       {isOpen && (
         <div className="lightbox-overlay" onClick={() => setIsOpen(false)}>
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-         
-            <img src={largeImage} alt={title} />
+            <img
+              src={largeImage || smallImage}
+              alt={title}
+              style={{
+                maxWidth: "90%",
+                maxHeight: "90%",
+                borderRadius: "12px"
+              }}
+            />
           </div>
         </div>
       )}

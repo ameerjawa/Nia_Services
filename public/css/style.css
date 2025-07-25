@@ -90,13 +90,15 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #B8860B; /* gold-ish color */
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
+  position: relative; /* needed for :after absolute positioning */
 }
+
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
   position: absolute;
@@ -104,13 +106,15 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #FFD700 0%, #B8860B 100%); /* gold gradient underline */
   content: "";
   transition: width 0.2s;
 }
+
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -134,11 +138,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-  border-color: #608dfd;
+  border-color: #B8860B;     /* darker gold */
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #000;
 }
 .section-title {
   margin-bottom: 70px;
@@ -152,7 +155,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #FFD700 0%, #B8860B 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +169,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #000; /* solid black */
+  background-image: none;  /* no gradient initially */
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -177,15 +180,18 @@ hr {
   transition: all 0.5s linear;
   border: 0;
 }
+
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
   color: #fff;
-  background-image: none;
-  background-color: #6372ff;
+  background-image: linear-gradient(to right, #FFD700 0%, #B8860B 100%);
+  background-color: transparent; /* fallback */
+  box-shadow: 0 0 10px #FFD700; /* optional glow effect */
 }
+
 .btn:active,
 .btn.active {
   background-image: none;
@@ -208,7 +214,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/Hero_home_web.jpg) center center no-repeat;
+  background: url(../img/home_new.png) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -257,7 +263,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #FFD700 0%, #B8860B 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +282,8 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #FFD700 0%, #B8860B 100%)
+;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -294,7 +301,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #FFD700;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -313,7 +320,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: black;
   color: #fff;
 }
 #services .service-desc {
@@ -337,7 +344,8 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #FFD700 0%, #B8860B 100%)
+;
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -463,7 +471,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #000;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
