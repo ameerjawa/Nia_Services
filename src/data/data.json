@@ -109,8 +109,8 @@
     },
      {
       "icon": "fa fa-fighter-jet",
-      "name": "Quick 30-Minute Show-Up Time",
-      "text": "Our team ensures rapid response, arriving within 30 minutes to handle your emergency."
+      "name": "Quick 20-Minute Show-Up Time",
+      "text": "Our team ensures rapid response, arriving within 20 minutes to handle your emergency."
     },
     {
       "icon": "fa fa-windows",
@@ -225,7 +225,7 @@
     {
       "icon": "fa fa-search",
       "title": "Emergency Assistance",
-      "text": "Get 24/7 emergency locksmith services with a quick 30-minute response time for urgent situations."
+      "text": "Get 24/7 emergency locksmith services with a quick 20-minute response time for urgent situations."
     },
     {
       "icon": "fa fa-car",
